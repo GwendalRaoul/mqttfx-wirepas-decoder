@@ -1,13 +1,16 @@
 # mqttfx-wirepas-decoder
 
 This project contains an addon for the [MQTT.fx][mqttfx] application that can decode wirepas protobuf
-message payloads
+message payloads.
 
+The content of the messages are converted to Json format as depicted in this screenshot:
+
+![Sreenshot][here_screenshot]
 
 # Install
 
-You can soon download a precompiled JAR from the release page.
-The ** mqttfx-wirepas-decoder-<version>-all.jar ** file should be placed in the MQTT.fx **addon** directory, which
+You can directly download a precompiled JAR from the [release tab][here_rlease].
+The **mqttfx-wirepas-decoder-(version)-all.jar** file should be placed in the MQTT.fx **addon** directory, which
 varies by platform:
 
 | OS          | Add-on location                                          |
@@ -25,6 +28,8 @@ The build uses Gradle. Build with the `shadowJar` task:
 ./gradlew shadowJar
 ```
 
-That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which you can install.
+That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which you can install as described bellow.
 
 [mqttfx]: http://mqttfx.org/
+[here_screenshot]: media/screenshot.png
+[here_release]: releases
