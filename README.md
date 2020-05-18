@@ -19,8 +19,20 @@ varies by platform:
 | **Windows** | `[USER_HOME]\AppData\Local\MQTT-FX\addons`               |
 | **Linux**   | `[USER_HOME]/MQTT-FX/addons`                             |
 
+# How to use
+
+Once mqttfx is started and you have subscribed to some topics (like _gw-events/#_), you can select the Wirepas Generic Protobuf decoder in the "Payload decoded by" drop down menu in the right lower part of the screen.
+It should decode the received message in a Json readable format.
+
+> :warning:
+>
+> _Main purpose of this pluggin is to visualize the traffic to help diagnose the issues but is not designed nor tested with very high loaded brokers_
+>
+
 
 # Building
+
+If you want to add your modification, you can rebuild it yourself.
 
 The build uses Gradle. Build with the `shadowJar` task:
 
