@@ -9,8 +9,8 @@ The content of the messages are converted to Json format as depicted in this scr
 
 # Install
 
-You can directly download a precompiled JAR from the [release tab][here_rlease].
-The **mqttfx-wirepas-decoder-(version)-all.jar** file should be placed in the MQTT.fx **addon** directory, which
+You can directly download a precompiled JAR from the [release tab][here_release].
+The **mqttfx-wirepas-decoder_addon.jar** file should be placed in the MQTT.fx **addon** directory, which
 varies by platform:
 
 | OS          | Add-on location                                          |
@@ -44,4 +44,4 @@ That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which 
 
 [mqttfx]: http://mqttfx.org/
 [here_screenshot]: media/screenshot.png
-[here_release]: releases
+[here_release]: https://github.com/GwendalRaoul/mqttfx-wirepas-decoder/releases
