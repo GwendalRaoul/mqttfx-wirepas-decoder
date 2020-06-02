@@ -21,7 +21,7 @@ varies by platform:
 
 # How to use
 
-Once mqttfx is started and you have subscribed to some topics (like _gw-events/#_), you can select the Wirepas Generic Protobuf decoder in the "Payload decoded by" drop down menu in the right lower part of the screen.
+Once mqttfx is started and you have subscribed to some topics (like _gw-event/#_), you can select the Wirepas Generic Protobuf decoder in the "Payload decoded by" drop down menu in the right lower part of the screen.
 It should decode the received message in a Json readable format.
 
 > :warning:
