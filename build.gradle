@@ -27,6 +27,7 @@ dependencies {
     compile group: 'com.google.protobuf', name: 'protobuf-java', version: '3.11.4'
     compile group: 'de.jensd', name: 'mqttfx-payload-decoders', version: '11.0.2'
     compile group: 'de.jensd', name: 'addon-commons', version: '11.0.2'
+    compile group: 'org.json', name: 'json', version: '20200518'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
