@@ -1,1 +1,2 @@
 mqttfx.wirepas.decoder.WirepasProtobufDecoder
+mqttfx.wirepas.decoder.WirepasWPEProtobufDecoder

@@ -1,6 +1,6 @@
 # mqttfx-wirepas-decoder
 
-This project contains an addon for the [MQTT.fx][mqttfx] application that can decode wirepas protobuf
+This project contains an addon for the [MQTT.fx][mqttfx] application that can decode Wirepas gateway (WP-RM-128) and WPE protobuf
 message payloads.
 
 The content of the messages are converted to Json format as depicted in this screenshot:
@@ -21,7 +21,7 @@ varies by platform:
 
 # How to use
 
-Once mqttfx is started and you have subscribed to some topics (like _gw-event/#_), you can select the Wirepas Generic Protobuf decoder in the "Payload decoded by" drop down menu in the right lower part of the screen.
+Once mqttfx is started and you have subscribed to some topics (like _gw-event/#_ or _wpe-response/#_), you can select the Wirepas Generic Protobuf decoder or Wirepas WPE Protobuf decoder in the "Payload decoded by" drop down menu in the right lower part of the screen.
 It should decode the received message in a Json readable format.
 
 > :warning:
@@ -40,7 +40,7 @@ The build uses Gradle. Build with the `shadowJar` task:
 ./gradlew shadowJar
 ```
 
-That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which you can install as described bellow.
+That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which you can install as described above.
 
 [mqttfx]: http://mqttfx.org/
 [here_screenshot]: media/screenshot.png
