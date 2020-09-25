@@ -37,7 +37,7 @@ If you want to add your modification, you can rebuild it yourself.
 The build uses Gradle. Build with the `shadowJar` task:
 
 ```
-./gradlew shadowJar
+./gradlew shadowJar 
 ```
 
 That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which you can install as described bellow.
