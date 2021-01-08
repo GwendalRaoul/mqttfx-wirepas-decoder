@@ -45,3 +45,4 @@ That will produce a `build/libs/mqttfx-wirepas-decoder-<version>-all.jar` which 
 [mqttfx]: http://mqttfx.org/
 [here_screenshot]: media/screenshot.png
 [here_release]: https://github.com/GwendalRaoul/mqttfx-wirepas-decoder/releases
+
